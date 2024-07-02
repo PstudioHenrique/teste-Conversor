@@ -1,0 +1,117 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background: rgb(154, 57, 235);
+}
+
+
+.logoGif{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+
+main{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background: white;
+    border-radius: 15px;
+    padding: 17px;
+
+}
+
+label{
+   
+    font-size: 20px;
+    
+     
+}
+
+select{
+    width: 100%;
+    border-radius: 5px;
+    height: 37px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+
+}
+.inputValue{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 37px;
+    margin-bottom: 5px;
+}
+
+.bt{
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color:rgb(159, 82, 223) ;
+    background: rgb(159, 82, 223);
+    font-size: 17px;
+    margin-top: 15px;
+    color: white;
+}
+
+:hover.bt{
+    background: purple;
+    transition: ease-out 0.5s;
+}
+
+section{
+    height: 300px;
+    border:solid;
+    border-radius: 5px;
+    border-color: rgb(178, 104, 247);
+    margin-top: 8px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imgArrow{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.currencyBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+    
+p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.currencyp{  /* tag <p> */
+    color:#777777; 
+    font-size: 14px;
+}
+
+.currencyValue{
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+

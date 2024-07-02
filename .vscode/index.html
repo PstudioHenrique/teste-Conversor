@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+   
+    <title>Converter</title>
+
+
+
+</head>
+
+<body>
+    <img class="logoGif" src="./assets/logoMoney.gif" alt="">
+
+    <main>
+
+        <label for="Real">
+            Converter <b>de:</b>
+            <select name="Real" id="selectToConvert">
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
+
+        <label for="estrangeiro">
+            Converter <b>Para:</b>
+
+            <select name="estrangeiro" id="SelectCurrency">
+                <option value="Dolar">US$ Dólar Americano</option>
+                <option value="Euro">€ Euro</option>
+            </select>
+        </label>
+
+        <label for="valor">
+            <b>valor:</b>
+            <input class="inputValue" name="valor" placeholder="0,00">
+
+        </label>
+
+        <button class="bt">Converter</button>
+
+        <section>
+
+            <div class=" currencyBox">
+                <img src="./assets/Real.png" alt="logo brasil">
+
+                <p class="currencyp" id="preal">Real</p>
+                <p class="currencyValue"  id="Real">R$ 0,00</p>
+            </div>
+
+            <img class="imgArrow" src="./assets/Arrow.png" alt="seta">
+
+            <div class=" currencyBox">
+                <img class="imgBotton currency" src="./assets/USA.png" alt="logo USA">
+
+                <p class="currencyp" id="textCurrency">Dólar</p>
+                <p class="currencyValue" id="Dolar">US$ 0,00</p>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
